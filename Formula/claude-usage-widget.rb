@@ -1,8 +1,8 @@
 class ClaudeUsageWidget < Formula
   desc "Claude / Codex 用量桌面挂件 —— 额度环、本地统计热力图、像素猫"
   homepage "https://github.com/yuemuqing-thu/claude-usage-widget"
-  url "https://github.com/yuemuqing-thu/claude-usage-widget/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "eebadd790cd480657be468ccabb3edf2aa67aa8314dab2a7f16f78481bad966d"
+  url "https://github.com/yuemuqing-thu/claude-usage-widget/archive/refs/tags/v0.2.1.tar.gz"
+  sha256 "4953eb92af3d4b0207e5cdc52fa5bb1321b9bd9daacf6c1552b2bf7eba0d4c62"
   license "MIT"
 
   # 注意：formula 不能 depends_on cask，Homebrew 直接拒绝。
@@ -33,8 +33,8 @@ class ClaudeUsageWidget < Formula
       启用会做这些事：检查 Übersicht（没有就自动 brew 装上）、装 statusLine 脚本、
       改 ~/.claude/settings.json（自动备份）、把挂件放进 Übersicht、重启 Übersicht。
 
-      想同时看 Codex 用量：
-        claude-usage-widget codex on
+      装了 Codex 的话会自动一起显示，不用额外操作。
+      不想要：claude-usage-widget codex off
 
       出问题了：
         claude-usage-widget doctor
