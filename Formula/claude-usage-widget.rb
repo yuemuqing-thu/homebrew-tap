@@ -1,8 +1,8 @@
 class ClaudeUsageWidget < Formula
   desc "Claude / Codex 用量桌面挂件 —— 额度环、本地统计热力图、像素猫"
   homepage "https://github.com/yuemuqing-thu/claude-usage-widget"
-  url "https://github.com/yuemuqing-thu/claude-usage-widget/archive/refs/tags/v0.2.3.tar.gz"
-  sha256 "cf21dd86fd4a5781f3ecd177b1c28119b24e19c42792d628e6b495b90e3318f9"
+  url "https://github.com/yuemuqing-thu/claude-usage-widget/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "b9219dddccf4495037c1a665c160d1e99f2da710997bdc230a4fe4a24fe94e65"
   license "MIT"
 
   # 注意：formula 不能 depends_on cask，Homebrew 直接拒绝。
